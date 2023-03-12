@@ -5,7 +5,6 @@ function renderizarGUI(){
     divCalculadora.setAttribute("id", "calculadora");
     divCalculadora.setAttribute("class", "text-center");
     divCalculadora.setAttribute("style", "width:50%; margin:20 auto;");
-    divCalculadora.setAttribute("class", "container justify-content-center")
     document.body.appendChild(divCalculadora);
 
     const divPantalla= document.createElement("div")
