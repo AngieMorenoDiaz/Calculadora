@@ -5,12 +5,10 @@ function renderizarGUI(){
     divCalculadora.setAttribute("id", "calculadora");
     divCalculadora.setAttribute("class", "text-center");
     divCalculadora.setAttribute("style", "width:50%; margin:20 auto;");
-    divCalculadora.setAttribute("class", "container justify-content-center")
     document.body.appendChild(divCalculadora);
 
     const divPantalla= document.createElement("div")
     divPantalla.setAttribute("id", "divPantalla");
-    
     divCalculadora.appendChild(divPantalla);
     
 
@@ -19,7 +17,7 @@ function renderizarGUI(){
     pantalla.setAttribute("type", "text");
     pantalla.setAttribute("value", "0");
     pantalla.setAttribute("disabled", "true");
-    pantalla.setAttribute("class", "form-control text-right btn-purple");
+    pantalla.setAttribute("class", "form-control text-right btn-warning");
     divPantalla.appendChild(pantalla);
 
     const divBotones= document.createElement("div")
